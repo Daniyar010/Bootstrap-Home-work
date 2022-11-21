@@ -1,0 +1,40 @@
+body{
+	background-image: url(../img/bg.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	/*background-color: #000;*/
+}
+section{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.col-7{
+	text-transform: uppercase;
+	color: #9e9e9f;
+}
+
+.float-end{
+	height: 300px;
+}
+
+.carousel-control-prev-icon{
+	background-image: url(../img/arrow/01.svg);
+}
+
+.carousel-control-next-icon{
+	background-image: url(../img/arrow/02.svg);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	width: 30px;
+}
+
+.carousel-control-prev{
+	left: -150px;
+}
+
+.carousel-control-next{
+	right: -150px;
+}
